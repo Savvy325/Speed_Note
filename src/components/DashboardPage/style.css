@@ -1,0 +1,36 @@
+.round-avatars {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+  }
+  
+  .round-avatars .image {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .round-avatars.aiden-murphy {
+    background-color: #5b425f;
+  }
+  
+  .round-avatars.ethan-parker { background-image: url(/img/image-7.png); }
+  .round-avatars.liam-johnson { background-image: url(/img/image-11.png); }
+  .round-avatars.sophia-clark { background-image: url(/img/image-15.png); }
+  .round-avatars.olivia-martine { background-image: url(/img/image-3.png); }
+  .round-avatars.lucas-bennett { background-image: url(/img/image.png); }
+  .round-avatars.amelia-scott { background-image: url(/img/image-14.png); }
+  .round-avatars.isabella-lewis { background-image: url(/img/image-1.png); }
+  .round-avatars.mason-brooks { background-image: url(/img/image-5.png); }
+  .round-avatars.mia-walker { background-image: url(/img/image-6.png); }
+  .round-avatars.harper-adams { background-image: url(/img/image-4.png); }
+  .round-avatars.noah-thompson { background-image: url(/img/image-13.png); }
+  .round-avatars.ava-robinson { background-image: url(/img/image-12.png); }
+  .round-avatars.oliver-hayes { background-image: url(/img/image-2.png); }
+  .round-avatars.charlotte-young { background-image: url(/img/image-8.png); }
+  .round-avatars.emma-harris { background-image: url(/img/image-10.png); }

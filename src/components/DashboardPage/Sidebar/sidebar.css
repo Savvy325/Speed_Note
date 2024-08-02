@@ -1,0 +1,102 @@
+html, body, #root, .dashboard {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .sidebar {
+    width: 200px;
+    background-color: #004f77;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    height: 100vh; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  nav ul li {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul li:hover {
+    background-color: #414345;
+  }
+  
+  .logout-button {
+    margin-top: auto;
+    padding: 10px 20px;
+    background-color: #07696F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  .side-bar-2 {
+    background-image: url(../../../images/dashboard_clipboard.png);
+    height: 100px;
+    width: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
+  .dashboard-logo {
+    background-image: url(../../../images/dashboardlogo.png); 
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .dashboard-label {
+    color: #07696F;
+}
+  .patient-logo {
+    background-image: url(../../../images/patient_directory.png); 
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .schedule-logo {
+    background-image: url(../../../images/calendar.png); 
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+  }
+  .settings-logo {
+    background-image: url(../../../images/settings_gear.png); 
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 10px;
+  }

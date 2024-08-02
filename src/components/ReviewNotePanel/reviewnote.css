@@ -1,0 +1,132 @@
+.review-note-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1200;
+  }
+  
+  .review-note-content {
+    background-color: #1c1e21;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90%;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .send-to-insurance {
+    background-color: #17a2b8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .note-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1;
+  }
+  
+  .left-panel {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .right-panel {
+    background-color: #1c1e21;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .session-notes, .details-box {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .box-content {
+    margin-top: 10px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .close-button, .save-changes {
+    background-color: #07696F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .save-changes {
+    background-color: #17a2b8;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .review-note-content {
+      width: 90%;
+    }
+  
+    .header h1 {
+      font-size: 1em;
+    }
+  
+    .send-to-insurance, .close-button, .save-changes {
+      font-size: 0.8em; }
+  }
+  
+  @media (max-width: 480px) {
+    .header h1 {
+      font-size: 0.9em; 
+    }
+  
+    .send-to-insurance, .close-button, .save-changes {
+      font-size: 0.7em; 
+      padding: 8px 16px; 
+    }
+}

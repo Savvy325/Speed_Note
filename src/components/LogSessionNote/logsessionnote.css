@@ -1,0 +1,76 @@
+.log-session-note-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .log-session-note-content {
+    background-color: #1c1e21;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .process-button, .close-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .process-button {
+    background-color: #ccc;
+    color: black;
+  }
+  
+  .process-button:hover {
+    background-color: #bbb;
+  }
+  
+  .close-button {
+    background-color: #07696F;
+    color: white;
+  }
+  
+  .close-button:hover {
+    background-color: #065a59;
+  }

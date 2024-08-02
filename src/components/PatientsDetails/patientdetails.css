@@ -1,0 +1,149 @@
+.patient-details-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1300;
+  }
+  
+  .patient-details-content {
+    background-color: #1c1e21;
+    color: #F8E8EE;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    max-height: 90%;
+    overflow-y: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .close-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .content {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .left-panel, .right-panel {
+    flex: 1;
+  }
+  
+  .left-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F8E8EE;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .patient-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .details-box {
+    width: 100%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .see-more-info {
+    background-color: #07696F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .right-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1c1e21;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notes-list {
+    width: 100%;
+  }
+  
+  .note-item {
+    display: flex;
+    gap: 10px;
+    background-color: #07696F;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .note-thumbnail {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .note-details {
+    flex: 1;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .overview-button, .documents-button, .create-document-button, .close-footer-button {
+    background-color: #07696F;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
+  
+  .create-document-button {
+    background-color: #17a2b8;
+  }
+  
+  .close-footer-button {
+    background-color: #d9534f;
+  }

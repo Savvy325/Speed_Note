@@ -1,0 +1,280 @@
+.homepage-login {
+  align-items: flex-start;
+  background-image: url(../../images/homepage-login-v1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+.homepage-login .main-content {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0px 64px;
+  position: relative;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.homepage-login .left-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 0px 16px;
+  position: relative;
+}
+
+.homepage-login .spacer {
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .full-logo {
+  align-self: stretch;
+  height: 190px;
+  margin-left: -14.05px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .copy-rights {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  height: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .text-wrapper-7 {
+  color: #b0d3d1;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-login .right-3 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.homepage-login .login-info {
+  align-items: flex-start;
+  background-color: #b0d3d1bf;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  height: 520px;
+  overflow: hidden;
+  padding: 64px;
+  position: relative;
+  width: 572px;
+}
+
+.homepage-login .header-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .text-wrapper-8 {
+  align-self: stretch;
+  color: #111325;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: xx-large;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  margin-top: -1px;
+  position: relative;
+}
+
+.homepage-login .text-wrapper-9 {
+  align-self: stretch;
+  color: #111325;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: medium;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  position: relative;
+}
+
+.homepage-login .div-7 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .email-input-animations {
+  flex: 0 0 auto !important;
+  margin-right: -3px !important;
+  width: 447px !important;
+}
+
+.homepage-login .password {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .password-input-animations {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.homepage-login .frame {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .remember-my-account {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+  position: relative;
+  width: 204px;
+}
+
+.homepage-login .check-box-instance {
+  height: 32px !important;
+  position: relative !important;
+  width: 32px !important;
+}
+
+.homepage-login .icon-switcher-14 {
+  height: 24px !important;
+  left: 4px !important;
+  position: absolute !important;
+  top: 4px !important;
+  width: 24px !important;
+}
+
+.homepage-login .check-box-2 {
+  height: 32px !important;
+  width: unset !important;
+}
+
+.homepage-login .text-wrapper-10 {
+  color: #2c303d;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.homepage-login .login-button-instance {
+  flex: 0 0 auto !important;
+}
+
+.homepage-login .don-t-have-an {
+  align-self: stretch;
+  color: transparent;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+  position: relative;
+  text-align: center;
+}
+
+.homepage-login .span {
+  color: #2c303d;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+}
+
+.homepage-login .text-wrapper-11 {
+  color: #111325;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  font-style: var(--body-font-style);
+  font-weight: var(--body-font-weight);
+  letter-spacing: var(--body-letter-spacing);
+  line-height: var(--body-line-height);
+}
+
+.homepage-login .links {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  gap: 40px;
+  height: 40px;
+  justify-content: flex-end;
+  position: relative;
+  width: 100%;
+}
+
+.homepage-login .text-wrapper-12 {
+  color: #b0d3d1;
+  font-family: var(--links-font-family);
+  font-size: var(--links-font-size);
+  font-style: var(--links-font-style);
+  font-weight: var(--links-font-weight);
+  letter-spacing: var(--links-letter-spacing);
+  line-height: var(--links-line-height);
+  position: relative;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: fit-content;
+}
